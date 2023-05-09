@@ -66,3 +66,25 @@ let esMayor = edad >= edadMaxima;
 console.log("Edad: " + edad);
 console.log("Es Mayor de Edad?: " + esMayor);
 
+//EJercicio 4:
+
+/* 4. **Operaciones lógicas**
+    - Declara dos variables booleanas (**`cond1`** y **`cond2`**) y asígnales valores. Luego, utiliza los operadores lógicos para determinar si ambas condiciones son verdaderas, si al menos una de las condiciones es verdadera, y si ninguna de las condiciones es verdadera.
+    - Declara una variable numérica (**`edad`**) y una variable booleana (**`esMayorDeEdad`**) y asígnales valores. Luego, utiliza los operadores lógicos para determinar si la persona es mayor de edad (es decir, si **`edad`** es mayor o igual a 18) y almacena el resultado en **`esMayorDeEdad`**. */
+
+console.log("Ejercicio 4: \n");
+
+let cond1 = true;
+let cond2 = false;
+
+console.log(
+    "Condicional 1 = " + cond1,
+    "\nCondicional 2 = " + cond2,
+    "\nAmbas Condiciones son verdaderas?: " + (cond1 && cond2),     // AND
+    "\nAl menos una condicion es verdadera?: " + (cond1 || cond2),  // OR
+    "\nAmbas Condiciones son Falsas:?: " + !(cond1 || cond2)        // NOR
+);
+
+edad = 17; // Variable declarada en Ejercicio 1
+let esMayorDeEdad = edad >= 18;
+console.log("Edad = " + edad + "\nEs Mayor de edad?: " + esMayorDeEdad);
