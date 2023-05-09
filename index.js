@@ -1,4 +1,3 @@
-
 //Ejercicio 1:
 /*1. **Declaración de variables**
     - Declara una variable llamada **`nombre`** y asígnale un valor de tipo string.
